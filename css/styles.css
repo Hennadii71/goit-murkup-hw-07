@@ -1,36 +1,35 @@
-
-      /* Body style */
+/* Body style */
 
 :root {
-    --bacground-color: #ffffff;
-    --primary-bacground: #e5e5e5;
-    --primary-brand: #4d5ae5;
-    --pressed-state: #404bbf;
-    --body-txt: #434455;
-    --title-txt: #2e2f42;
-    --link-color: #8e8f99;
-    --succes-messadges: #31d0aa;
-    --primary-txt: Roboto, sans-serif;
-}
-  
-body {
- background-color: var(--bacground-color);
- font-family: var(--primary-txt);
- font-weight: 400;
- font-size: 16px;
- line-height: 1.5;
- letter-spacing: 0.02em;
- color: var(--body-txt);
-}
-  
-.container {
- padding-left: 15px;
- padding-right: 15px;
- margin-left: auto;
- margin-right: auto;
+  --bacground-color: #ffffff;
+  --primary-bacground: #e5e5e5;
+  --primary-brand: #4d5ae5;
+  --pressed-state: #404bbf;
+  --body-txt: #434455;
+  --title-txt: #2e2f42;
+  --link-color: #8e8f99;
+  --succes-messadges: #31d0aa;
+  --primary-txt: Roboto, sans-serif;
 }
 
-  /* Reset settings */
+body {
+  background-color: var(--bacground-color);
+  font-family: var(--primary-txt);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--body-txt);
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Reset settings */
 
 .link,
 .link-tel,
@@ -61,4 +60,10 @@ img {
   display: block;
   margin-top: 0;
   margin-bottom: 0;
+}
+
+@media screen and (max-widht: 767px) {
+  .advantages-icon {
+    display: none;
+  }
 }
