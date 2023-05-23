@@ -149,10 +149,6 @@ img {
   border-radius: 2px;
   background-color: var(--pressed-state);
 }
-.menu-portfolio {
-  position: relative;
-  color: var(--pressed-state);
-}
 
 .menu-portfolio::after {
   content: '';
