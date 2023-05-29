@@ -220,6 +220,11 @@ img {
     justify-content: center;
     gap: 56px;
   }
+  @media screen and (max-width: 379px) {
+    .social-mobail-menu {
+      gap: 36px;
+    }
+  }
 
   .social-mobail-menu .item {
     width: 40px;
@@ -242,12 +247,8 @@ img {
 /* Contacts header */
 
 .contacts {
-  font-style: normal;
   margin-left: auto;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+  font-style: normal;
 }
 
 .link-contacts {
@@ -263,6 +264,17 @@ img {
 }
 
 /* Heder tab */
+
+@media screen and (max-width: 1157px) {
+  .contacts {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+  }
+  .item-phon {
+    margin-bottom: 12px;
+  }
+}
 
 @media screen and (min-width: 768px) {
   .header {
@@ -313,9 +325,6 @@ img {
     height: 4px;
     border-radius: 2px;
     background-color: var(--pressed-state);
-  }
-  .item-phon {
-    margin-bottom: 12px;
   }
 }
 
@@ -378,6 +387,7 @@ img {
   margin-bottom: 72px;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
@@ -501,8 +511,7 @@ img {
 
 @media screen and (max-width: 767px) {
   .title-advantages {
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
   }
 }
 
@@ -524,6 +533,9 @@ img {
   .advantages-icon,
   .photo {
     display: none;
+  }
+  .txt-advantages {
+    font-weight: 500;
   }
 }
 
@@ -838,7 +850,8 @@ img {
     text-align: center;
   }
   .foot-txt {
-    text-align: center;
+    margin: 0 auto;
+    width: 264px;
   }
   .social-foot-txt,
   .footer-form-txt {
@@ -891,6 +904,9 @@ img {
   }
   .foot-container {
     align-items: baseline;
+  }
+  .footer-form-input {
+    width: 264px;
   }
   .logo-two-foot:hover,
   .logo-two-foot:focus {
