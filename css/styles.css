@@ -491,14 +491,19 @@ img {
 }
 
 .title-advantages {
-  margin-left: auto;
-  margin-right: auto;
   margin-bottom: 8px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
   letter-spacing: 0.02em;
   color: var(--title-txt);
+}
+
+@media screen and (max-width: 767px) {
+  .title-advantages {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 /* Our advantages tab */
